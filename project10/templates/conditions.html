@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Conditions</h1>
+        <!-- {% if age > 18 %}
+            <h1>{{name}} you are nibba</h1>
+        {% endif %} -->
+
+        <!-- {% if age > 18 %}
+            <h1>{{name}} you are adult</h1>
+        {% else %}
+            <h1>{{name}} you are a kid</h1>
+        {% endif %} -->
+
+        <!-- {% if age < 12 %}
+            <h1>{{name}} baccha hai re tu</h1>
+        {% elif age < 18 %}
+            <h1>{{name}} abhi v baccha hai tu</h1>
+        {% else %}
+            <h1>{{name}} buddha hogya re tu</h1>
+        {% endif %} -->
+
+        <!-- {% if age < 18 %}
+            {% if age < 13 %}
+                <h1>{{name}} baccha hai re tu</h1>
+            {% else %}
+                <h1>{{name}} bada horaha hai re tu</h1>
+            {% endif %}
+        {% else %}
+            <h1>{{name}} buddha hogya re tu</h1>
+        {% endif %} -->
+
+        {% for i in name %}
+            <h1 style="display: inline;">{{i}}</h1>
+        {% endfor %}
+    </center>
+</body>
+</html>
